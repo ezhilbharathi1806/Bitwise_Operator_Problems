@@ -3,7 +3,7 @@
 int multiply(int a, int b) {
 	int result = 0;
 
-	while (b > 0) {                  // Loop until b becomes zero
+	while (b != 0) {                  // Loop until b becomes zero
 
 		if (b & 1) {                 // Check if the least significant bit of b is 1
 			result = result + a;     // Add a to result
